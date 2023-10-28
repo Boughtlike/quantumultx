@@ -70,7 +70,7 @@ urls.forEach(url => {
           svip_take_effect: 1,
           vip_type: "s",
           name: "木了",
-          avatar: "https://img0.baidu.com/it/u=996837806,2906050272&fm=253&fmt=auto&app=138&f=JPEG?w=380&h=380",
+          avatar: "https://up.enterdesk.com/edpic/fe/11/97/fe119792285b42e687ebf4367f77c8de.jpg,
           token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJ1c2VyX2lkIjoiNWY1YmZjNTdkMmM2ODkwMDE0ZTI2YmI4Iiwic3ZpcF9leHBpcmVkX2F0IjoxNzA1MzMxMTY2LjQxNjc3MSwidmlwX2V4cGlyZWRfYXQiOjB9.h_Cem89QarTXxVX9Z_Wt-Mak6ZHAjAJqgv3hEY6wpps"
         }
         break;
