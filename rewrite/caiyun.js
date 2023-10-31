@@ -1,3 +1,4 @@
+
 /*************************************
 
 项目名称：彩云天气-净化/SVIP
@@ -7,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info) url script-response-body https://raw.githubusercontent.com/Boughtlike/quantumultx/main/rewrite/caiyun.js
+^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info) url script-response-body https://raw.githubusercontent.com/yanyuwangluo/yanyuwangluo/main/cy.js
 ^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get url reject-200
 
 [mitm]
@@ -69,8 +70,8 @@ urls.forEach(url => {
           svip_expired_at: 4092599349,
           svip_take_effect: 1,
           vip_type: "s",
-          name: "木了",
-          avatar: "https://up.enterdesk.com/edpic/fe/11/97/fe119792285b42e687ebf4367f77c8de.jpg",
+          name: "烟雨",
+          avatar: "https://tu.yanyuwangluo.cn/2021/12/21/fe0632cfd5b47.png",
           token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJ1c2VyX2lkIjoiNWY1YmZjNTdkMmM2ODkwMDE0ZTI2YmI4Iiwic3ZpcF9leHBpcmVkX2F0IjoxNzA1MzMxMTY2LjQxNjc3MSwidmlwX2V4cGlyZWRfYXQiOjB9.h_Cem89QarTXxVX9Z_Wt-Mak6ZHAjAJqgv3hEY6wpps"
         }
         break;
